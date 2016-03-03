@@ -3,14 +3,20 @@ Open this directory in a terminal and type
 
 $paster serve --reload development.ini
 
+
 Then open a browser, and go to 127.0.0.1:5000
 
 If something crashes
   -either inspect in browser (right click, inspect element, check out the console. Should show html/javascript errors)
   -if its the server side that’s crashing, you’ll get a url in the terminal window with a link to debug your issue.
+You may need to run python setup.py develop
+
+Please note that this is not a finished website.
 
 System Requirements
 ————————————
+pylons
+easy_install Pylons
 pycrypto (pip install pycrypto)
 mysql (brew install mysql)
 MySQL-python (pip install MySQL-python)
